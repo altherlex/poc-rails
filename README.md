@@ -1,5 +1,12 @@
 # README
 
+* comandss
+```
+rails new poc-rail
+rails generate scaffold HighScore game:string score:integer
+rails db:migrate RAILS_ENV=development
+```
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
